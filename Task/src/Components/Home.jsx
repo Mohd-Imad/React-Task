@@ -56,7 +56,7 @@ const Home = () => {
        <>
         <div className="row" id='tablerow'>
         <div style={{ border: "1px solid" }} className="col-md-6">
-          <form>
+          <form action='https://httpbin.org/get' method='get'>
             <h1 className="container py-2">Enter Your Personal Details</h1>
             <div class="mb-3 text-start">
               <label className="form-label">First Name</label>
