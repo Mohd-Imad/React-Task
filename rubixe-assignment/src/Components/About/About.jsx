@@ -13,7 +13,7 @@ const About = () => {
             <p>Rubixe™ mission is to enable businesses to leverage the full potential of disruptive technologies and stay competitive in the market, turning complex challenges into solutions, providing a strategic competitive advantage that one more efficient, effective and predictable.</p>
           </div>
           <div className="col-right">
-            {/* <img src={AboutImg} alt="about-img" /> */}
+            <img src={AboutImg} alt="about-img" />
           </div>
         </section>
       </div>

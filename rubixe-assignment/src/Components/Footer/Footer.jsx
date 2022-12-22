@@ -40,8 +40,8 @@ const Footer = () => {
           </div>
           <div className="socialmedia">
             <h4>SOCIAL MEDIA</h4>
-            <FontAwesomeIcon icon={faFacebookF} className='fb-icon' />
-            <FontAwesomeIcon icon={faLinkedinIn} className='li-icon' />
+            <Link to='/facebook'><FontAwesomeIcon icon={faFacebookF} className='fb-icon' /></Link>
+            <Link to='/linkedin'><FontAwesomeIcon icon={faLinkedinIn} className='li-icon' /></Link>
           </div>
         </div>
       </div>

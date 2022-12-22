@@ -1,1 +1,27 @@
-
+.columns{
+    /* width: 100vw; */
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    padding: 3% 18%;
+}
+.col-left{
+    width: 70%;
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+}
+.col-right{
+    width: 30%;
+    background: #666;
+}
+.col-right img{
+    width: 50%;
+    height: 100%;
+}
