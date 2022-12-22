@@ -1,0 +1,10 @@
+.copyright{
+    width: 100vw;
+    background-color: #000;
+    /* color: #9b9999; */
+    color: rgb(107, 106, 106);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.5px;
+    font-weight:bolder;
+    padding: 1.5% 10% 1.5% 15%;
+}

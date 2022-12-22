@@ -44,9 +44,6 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedinIn} className='li-icon' />
           </div>
         </div>
-        <div className="copyright">
-          <p>© Copyright 2017 - 2022   |   Rubixe is a brand of THINK AHEAD INNOVATIONS PVT. LTD.   |   All Rights Reserved</p>
-        </div>
       </div>
     </>
   )

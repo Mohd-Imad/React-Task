@@ -4,6 +4,7 @@ import About from '../About/About'
 import History from '../History/History'
 import Form from '../Form/Form'
 import Footer from '../Footer/Footer'
+import Copyright from '../Copyright/Copyright'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <History />
         <Form />
         <Footer />
+        <Copyright />
       </div>
     </>
   )
