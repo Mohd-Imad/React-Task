@@ -8,7 +8,7 @@ const Header = () => {
       <div className="header">
         <div className="header-items">
           <img src={techLogo} alt="tech logo" />
-          <div className="header-para">
+          <div>
             <p>CARVING FUTURE</p>
             <p>TECHNOLOGY PROFESSIONALS</p>
             <p>OUT OF YOUNG MINDS</p>

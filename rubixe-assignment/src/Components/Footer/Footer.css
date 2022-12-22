@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.footer{
+    background-color:rgb(227, 224, 224);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10.72px;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 15%;
+}
+.col-1{
+    width: 40%;
+}
+.col-2{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.col-2 Link, .col-2 Link{
+    text-decoration: none;
+}
+
+.col-3{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.col-4{
+    width: 30%;
+}
+.socialmedia{
+    margin-top: 5%;
+}
