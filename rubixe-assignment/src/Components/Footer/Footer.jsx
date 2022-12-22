@@ -1,13 +1,16 @@
 import React from 'react'
 import './Footer.css'
 import { Link } from 'react-router-dom'
+import { faFacebookF, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const Footer = () => {
   return (
     <>
       <div className="footer">
         <div className="col-1">
-          <h5>ABOUT US</h5>
+          <h4>ABOUT US</h4>
           <p>Rubixe™ is a global technology company specializing in disruptive
             technologies - Artificial Intelligence (AI). Machine Learning. Robotic Process
             Automation (RPA), BlockChain and Internet of Things (IOT). Rubixe mission <br />
@@ -15,20 +18,20 @@ const Footer = () => {
             technologies to stay competitive in the market.</p>
         </div>
         <div className="col-2">
-          <h5>MENUS</h5>
-          <Link className="links" to='/'>Home</Link>
-          <Link to='/services'>Services</Link>
-          <Link to='/products'>Products</Link>
-          <Link to='/career'>Career</Link>
+          <h4>MENUS</h4>
+          <Link className="footer-link" to='/'>Home</Link>
+          <Link className="footer-link" to='/services'>Services</Link>
+          <Link className="footer-link" to='/products'>Products</Link>
+          <Link className="footer-link" to='/career'>Career</Link>
         </div>
         <div className="col-3">
-          <h5>LEARN MORE</h5>
-          <Link to='/about'>About</Link>
-          <Link to='/contact'>Contact Us</Link>
+          <h4>LEARN MORE</h4>
+          <Link className="footer-link" to='/about'>About</Link>
+          <Link className="footer-link" to='/contact'>Contact Us</Link>
         </div>
         <div className="col-4">
           <div className="address">
-            <h5>ADDRESS</h5>
+            <h4>ADDRESS</h4>
             Novel Tech Park, 1st Floor, Hosur Rd,<br />
             Kudlu gate, Bengaluru, Karnataka <br />
             560068 <br />
@@ -36,12 +39,15 @@ const Footer = () => {
             Email: hi@rubixe.com
           </div>
           <div className="socialmedia">
-            <h5>SOCIAL MEDIA</h5>
-            <i className='fa-brands fa-facebook-f'></i>
-            <i className='fa-brands fa-linkedin-in'></i>
+            <h4>SOCIAL MEDIA</h4>
+            <FontAwesomeIcon icon={faFacebookF} className='fb-icon' />
+            <FontAwesomeIcon icon={faLinkedinIn} className='li-icon' />
+          </div>
+        </div>
+        <div className="copyright">
+          <p>© Copyright 2017 - 2022   |   Rubixe is a brand of THINK AHEAD INNOVATIONS PVT. LTD.   |   All Rights Reserved</p>
         </div>
       </div>
-    </div>
     </>
   )
 }

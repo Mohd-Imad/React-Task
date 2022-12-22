@@ -1,33 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 .footer{
-    background-color:rgb(227, 224, 224);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10.72px;
+    background-color:rgb(243, 243, 243);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #747474;
     display: flex;
     flex-direction: row;
-    padding: 5% 15%;
+    padding: 3% 15%;
+}
+.footer h4{
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.footer p{
+    line-height: 20px;
 }
 .col-1{
     width: 40%;
+    margin-right: 2%;
 }
-.col-2{
+.col-2, .col-3{
     width: 15%;
     display: flex;
     flex-direction: column;
 }
-.col-2 Link, .col-2 Link{
+.footer-link{
     text-decoration: none;
-}
-
-.col-3{
-    width: 15%;
-    display: flex;
-    flex-direction: column;
+    color: grey;
+    margin-bottom: 4%;
 }
 .col-4{
     width: 30%;
 }
 .socialmedia{
     margin-top: 5%;
+}
+.fb-icon, .li-icon{
+    color: rgb(63, 63, 202);
+    border: 1px solid rgb(188, 184, 184);
+    padding: 2% 2%;
+    margin: 1%;
+}
+.li-icon{
+    color: rgb(13, 167, 245);
+}
+.copyright{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    background-color: #000;
+    color: #9b9999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.5px;
+    font-weight:bold;
+    padding: 1.5% 10% 1.5% 15%;
 }
