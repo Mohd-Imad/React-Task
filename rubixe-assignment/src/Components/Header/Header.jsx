@@ -1,11 +1,18 @@
 import React from 'react'
 import './Header.css'
+import techLogo from '../../assets/tech-teens.png'
+
 const Header = () => {
   return (
     <>
       <div className="header">
         <div className="header-items">
-          <p>jkdfujdbfdsufgbdsfvdfud</p>
+          <img src={techLogo} alt="tech logo" />
+          <div className="header-para">
+            <p>CARVING FUTURE</p>
+            <p>TECHNOLOGY PROFESSIONALS</p>
+            <p>OUT OF YOUNG MINDS</p>
+          </div>
         </div>
       </div>
     </>
