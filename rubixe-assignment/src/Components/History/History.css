@@ -1,0 +1,11 @@
+.history{
+    font-family: sans-serif;
+    padding: 1.5% 18%;
+   background-color: #ac2672;
+   color: white;
+}
+.history h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
