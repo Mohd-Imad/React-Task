@@ -10,7 +10,7 @@ const InitiativeCard = () => {
   return <>
     <div className="main-container">
       <div className="inner-container">
-        <div><h1>TECH FOR TEENS -A RUBIXE @ INITIATIVE</h1></div>
+        <div><h1>TECH FOR TEENS - A RUBIXE @ INITIATIVE</h1></div>
         <div className='card'>
 
           <div className='card-up'>

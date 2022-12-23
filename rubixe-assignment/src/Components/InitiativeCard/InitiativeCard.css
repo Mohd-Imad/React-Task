@@ -84,21 +84,31 @@
     border-radius: 50%;
     border: 0.5px solid transparent;
     margin-bottom: 0;
+
 }
 .one{
     color: #1d2d60;
+    margin-top: -25px;
+
 }
 .two{
     color:#9d2057;
+    margin-bottom: -25px;
+
 }
 .three{
     color: #e35e13;
+    margin-top: -25px;
 }
 .four{
     color: #195b37;
+    margin-bottom: -25px;
+
 }
 .five{
     color: #b77d33;
+    margin-top: -25px;
+
 }
 .card-text {
     width: 180px;
