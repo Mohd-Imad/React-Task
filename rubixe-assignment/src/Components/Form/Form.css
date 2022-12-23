@@ -1,0 +1,43 @@
+.container {
+    width: 70%;
+    font-family: sans-serif;
+    border: 2px solid black;
+    margin: 3% 15%;
+    display: flex;
+    border-radius: 8px;
+}
+.column-left {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:5%;
+    margin-right: 0;
+    padding: 30px;
+    border-right: 1.5px solid rgb(76, 75, 75);
+    gap:1rem;
+}
+.column-right {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin:5%;
+}
+.input{
+    height: 50px;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 4%;
+}
+.column-left h3{
+    text-align: center;
+}
+.label{
+    font-weight: 600;
+}
+.btn{
+    background-color: #16234b;
+    color: white;
+    padding: 1rem;
+}
