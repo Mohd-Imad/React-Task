@@ -50,9 +50,9 @@
 .card-body {
     height: 70%;
     border-left: 1px solid rgba(128, 128, 128, 0.401);
-    -webkit-box-shadow: 10px 0 10px -6px #777;
-    -moz-box-shadow: 10px 0 10px -6px #777;
-    box-shadow: 10px 0 10px -6px #777;
+    -webkit-box-shadow: 10px 0 px -6px rgb(182, 180, 180);
+    -moz-box-shadow: 10px 0 10px -6px rgb(233, 229, 229);
+    box-shadow: 10px 0 5px -6px rgb(182, 181, 181);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,8 +78,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     background-color: aliceblue;
     border-radius: 50%;
     border: 0.5px solid transparent;
@@ -88,25 +88,27 @@
 }
 .one{
     color: #1d2d60;
-    margin-top: -25px;
+    margin-top: -10%;
 }
 .two{
     color:#9d2057;
-    margin-bottom: -25px;
+    margin-top: 2%;
+    margin-bottom: -3%;
 
 }
 .three{
     color: #e35e13;
-    margin-top: -25px;
+    margin-top: -10%;
 }
 .four{
     color: #195b37;
-    margin-bottom: -25px;
+    margin-top: 2%;
+    margin-bottom: -3%;
 
 }
 .five{
     color: #b77d33;
-    margin-top: -25px;
+    margin-top: -10%;
 
 }
 .card-text {
