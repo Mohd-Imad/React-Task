@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 .main-container {
     background-color: rgb(229, 226, 226);
 }
@@ -9,7 +11,6 @@
     margin-bottom: 5%;
     padding: 5%;
     font-family: sans-serif;
-
 }
 
 .card{
@@ -62,7 +63,6 @@
 .card-hide {
     height: 15%;
     background: transparent;
-
 }
 
 .radius-top{
@@ -84,12 +84,11 @@
     border-radius: 50%;
     border: 0.5px solid transparent;
     margin-bottom: 0;
-
+    font-family:'Montserrat',sans-serif;
 }
 .one{
     color: #1d2d60;
     margin-top: -25px;
-
 }
 .two{
     color:#9d2057;
