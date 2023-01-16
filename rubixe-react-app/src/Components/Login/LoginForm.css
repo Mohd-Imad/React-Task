@@ -1,4 +1,5 @@
 .login-container{
+    height: 92vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -11,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(128, 126, 126, 0.473);
+    background-color: rgba(174, 49, 49, 0.473);
 
 }
 
@@ -19,6 +20,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.login-heading{
+    color: aliceblue;
+    padding: 1rem;
 }
 
 .login-body{
@@ -35,6 +41,10 @@
     /* border-radius: 10px; */
 }
 
+.err-msg{
+    color: #ff0000;
+}
+
 .login-btn{
     width: fit-content;
     padding:0.5rem  1rem;
@@ -43,3 +53,7 @@
     background-color: rgba(128, 126, 126, 0.473);
     color: aliceblue;
 }
+
+/* .login-btn:disabled:hover{
+    margin-left: 250px;
+ } */
